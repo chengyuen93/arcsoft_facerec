@@ -19,10 +19,10 @@ from ctypes import *
 import traceback
 
 config_file = "/camera.cfg"
-APPID = c_char_p(b'GftPTk199Uat2fp2X9svyMbChTUhyabJsKxn9FYUy621')
-FD_SDKKEY = c_char_p(b'A6BRrouepWFkXYhdEeqnHi7ua6x553hFEAvG1BuRZ5Ta')
-FT_SDKKEY = c_char_p(b'A6BRrouepWFkXYhdEeqnHi7nQhgscCC9GUWDGzuYmDi3')
-FR_SDKKEY = c_char_p(b'A6BRrouepWFkXYhdEeqnHi8QDhzkuAxfHhFrPVNwQ57C')
+APPID = c_char_p(b'AvN6tk5pv7bgzZiYsdc8rHWzjYaNMzt4vMCp13X6vnXe')
+FD_SDKKEY = c_char_p(b'HDKKcm4B277GUBSEWThiQQVZGgwGKEWNeTaWq96PwxMP')
+FT_SDKKEY = c_char_p(b'HDKKcm4B277GUBSEWThiQQVS7Hg9Eu3KswCHhqt5u4GB')
+FR_SDKKEY = c_char_p(b'HDKKcm4B277GUBSEWThiQQW3vHyverhPgwKp8QZ76dac')
 FD_WORKBUF_SIZE = 20 * 1024 * 1024
 FT_WORKBUF_SIZE = 40 * 1024 * 1024
 FR_WORKBUF_SIZE = 40 * 1024 * 1024
